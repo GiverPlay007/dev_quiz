@@ -1,5 +1,5 @@
-name: DevQuiz
-description: DevQuiz - Gabul DEV
+name: devquiz
+description: DevQuiz - NLW 05
 version: 1.0.0+1
 
 environment:
