@@ -1,5 +1,4 @@
 import 'package:devquiz/core/app_colors.dart';
-import 'package:devquiz/core/app_images.dart';
 import 'package:devquiz/core/app_text_styles.dart';
 import 'package:devquiz/shared/widgets/progress_indicator_widget.dart';
 import 'package:flutter/material.dart';
@@ -7,11 +6,13 @@ import 'package:flutter/material.dart';
 class QuizCardWidget extends StatelessWidget {
   final String title;
   final String completed;
+  final String image;
   final double completedPercent;
 
   const QuizCardWidget({
     Key? key,
     required this.title,
+    required this.image,
     required this.completed,
     required this.completedPercent,
   }) : super(key: key);
@@ -33,7 +34,7 @@ class QuizCardWidget extends StatelessWidget {
           Container(
             width: 40,
             height: 40,
-            child: Image.asset(AppImages.blocks),
+            child: Image.asset(this.image),
           ),
           SizedBox(
             height: 24,
