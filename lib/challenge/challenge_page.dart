@@ -1,7 +1,7 @@
 import 'package:devquiz/challenge/challenge_controller.dart';
 import 'package:devquiz/challenge/widgets/next_button_widget.dart';
 import 'package:devquiz/challenge/widgets/question_indicator_widget.dart';
-import 'package:devquiz/challenge/widgets/quiz_widget.dart';
+import 'package:devquiz/challenge/widgets/quiz/quiz_widget.dart';
 import 'package:devquiz/shared/models/question_model.dart';
 import 'package:flutter/material.dart';
 
