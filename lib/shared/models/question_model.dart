@@ -2,17 +2,17 @@ import 'package:devquiz/shared/models/answer_model.dart';
 
 class QuestionModel {
   final String title;
-  final List<AnswerModel> answer;
+  final List<AnswerModel> answers;
 
   QuestionModel({
     required this.title,
-    required this.answer,
-  }) : assert(answer.length == 4);
+    required this.answers,
+  }) : assert(answers.length == 4);
 
   factory QuestionModel.fromMap(Map<String, dynamic> map) {
     return QuestionModel(
       title: map['title'] as String,
-      answer: List<AnswerModel>.from(
+      answers: List<AnswerModel>.from(
         map['answers'].map((e) => AnswerModel.fromMap(e)),
       ),
     );
@@ -21,7 +21,7 @@ class QuestionModel {
   Map<String, dynamic> toMap() {
     return {
       'title': this.title,
-      'answer': this.answer.map((e) => e.toMap()).toList(),
+      'answer': this.answers.map((e) => e.toMap()).toList(),
     };
   }
 }
