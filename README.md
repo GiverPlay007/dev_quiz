@@ -1,16 +1,43 @@
-# devquiz
+<h1 align="center">
+  <img alt="DevQuiz" title="DevQuiz" src=".github/logo.png" />
+</h1>
 
-A new Flutter project.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-## Getting Started
+ <img src="https://img.shields.io/static/v1?label=NLW&message=05&color=8257E5&labelColor=000000" alt="NLW 05" />
+</p>
 
-This project is a starting point for a Flutter application.
+<br>
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img alt="DevQuiz" src=".github/devquiz.png" width="100%">
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## ✨ Tecnologias
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+
+## 💻 Projeto
+
+O devquiz é um jogo de perguntas para avaliar os seus conhecimentos sobre o mundo de desenvolvimento.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/fMqKhwT9L5D3MVe4btRtG5/DevQuiz/duplicate). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+
+## 🚀 Como executar
+
+- Clone o repositório
+- Inicie seu app com `flutter run`
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by GiverPlay.
